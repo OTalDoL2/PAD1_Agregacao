@@ -38,11 +38,11 @@ namespace Atividade_PAD
 
             Console.Write("\nVocê tem mãos? ");
             string maos = Console.ReadLine();
-            if(maos== "sim" || maos == "Sim"){ pulso.setMao(maos); ded.setDedom(true); }
+            if(maos== "sim" || maos == "Sim"){ pulso.setMao(maos); ded.setdedosDaMao(true); }
 
             Console.Write("\nVocê tem pés? ");
             string pes = Console.ReadLine();
-            if(pes== "sim" || pes == "Sim"){ perna.setPerna(pes); ded.setDedop(true); }
+            if(pes== "sim" || pes == "Sim"){ perna.setPerna(pes); ded.setdedosDoPe(true); }
 
             Console.Clear();
 

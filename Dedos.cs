@@ -4,33 +4,33 @@ namespace Atividade_PAD
 {
     public class Dedos
     { 
-        private bool dedom;
-        private bool dedop;
+        private bool dedosDaMao;
+        private bool dedosDoPe;
         public Dedos() { }
 
-        public Dedos(bool dedom, bool dedop)
+        public Dedos(bool dedosDaMao, bool dedosDoPe)
         {
-            this.dedom = dedom;
-            this.dedop = dedop;
+            this.dedosDaMao = dedosDaMao;
+            this.dedosDoPe = dedosDoPe;
         }
 
 
-        public void setDedom(bool dedom)
+        public void setdedosDaMao(bool dedosDaMao)
         {
-            this.dedom = dedom;
+            this.dedosDaMao = dedosDaMao;
         }
-        public bool getDedom()
+        public bool getdedosDaMao()
         {
-            return dedom;
+            return dedosDaMao;
         }
 
-        public void setDedop(bool dedop)
+        public void setdedosDoPe(bool dedosDoPe)
         {
-            this.dedop = dedop;
+            this.dedosDoPe = dedosDoPe;
         }
-        public bool getDedop()
+        public bool getdedosDoPe()
         {
-            return dedop;
+            return dedosDoPe;
         }
     }
 }
